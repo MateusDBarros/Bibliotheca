@@ -5,11 +5,15 @@ public class Reader  extends Methods {
     private String name;
     private String login;
     private String password;
+    private ArrayList<Book> books;
+
+
 
     public Reader (String name, String login, String password) {
         this.name = name;
         this.login = login;
         this.password = password;
+        this.books = new ArrayList<>();
     }
 
 
